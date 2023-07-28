@@ -11,6 +11,8 @@ const Login = () => {
         alt="hero"
       />
 
+      
+
       <div className="absolute inset-0 flex  flex-col justify-center items-center ">
         <div className="bg-dc3 w-100  h-auto rounded-md shadow-lg p-5 md:p-8 ">
           <div className="text-left flex flex-col items-center">

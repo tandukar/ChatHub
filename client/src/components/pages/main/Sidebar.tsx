@@ -15,9 +15,9 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="flex flex-row h-screen">
+      <div className="flex flex-row h-screen ">
         <div className="w-full bg-dc4 text-white p-2 ">
-          <div className="flex justify-center items-center h-11 w-11 rounded-2xl bg-dc1 mb-5">
+          <div className="flex justify-center items-center h-12 w-12 rounded-2xl bg-dc1 mb-5">
             {/* <FaDiscord className="h-7 w-7 text-neutral-200" /> */}
             <img
               className="h-7 w-7 text-neutral-200"
@@ -28,7 +28,7 @@ const Sidebar = () => {
 
           {groupChatData.map((data) => (
             <div className=" mb-4">
-              <div className="h-11 w-11 rounded-3xl overflow-hidden transition-all duration-300 hover:rounded-2xl">
+              <div className="h-12 w-12 rounded-3xl overflow-hidden transition-all duration-300 hover:rounded-2xl">
                 <img
                   src={data.imageUrl}
                   alt="Profile"
